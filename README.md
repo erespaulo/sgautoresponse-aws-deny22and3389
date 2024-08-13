@@ -29,7 +29,7 @@ Before running the code, make sure you have the following items ready:
 ### Command example:
 
 ```bash
-terraform apply -var 'vpc_id=vpc-00000XPTO' -var 'notification_email_address=email@example.com' -var 'namebucket=nome_do_bucket_s3'
+terraform apply -var 'vpc_id=vpc-00000XPTO' -var 'notification_email_address=email@example.com' -var 'namebucket=name_of_bucket_s3'
 ```
 
 Based on AWS Cloudformation : https://s3.amazonaws.com/aws-security-blog-content/public/sample/revertsecuritygroupchanges/security-group-change-auto-response.yaml
