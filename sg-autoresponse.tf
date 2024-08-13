@@ -82,8 +82,8 @@ resource "aws_lambda_function" "security_group_change_auto_response" {
   handler         = "index.lambda_handler"
   runtime         = "python3.12"
   description     = "Responds to security group changes"
-  memory_size     = 1024
-  timeout         = 60
+  memory_size     = 128
+  timeout         = 10
   publish         = true
 
   environment {
